@@ -1,38 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>LUQMAN MATLOOB</title>
-    <!----CSS link----->
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="/logo.png" type="image/png">
 
-  </head>
-  <body>
-    <div class="hero">
-      <nav>
-        <img src="logo.png" class="logo" />
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <a href="#" class="btn">Hire me</a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- font aeowsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+
+
+  <!-- custon CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <link rel="icon" href="images/favicon.png" />
+
+
+
+  <title>Luqman Matloob - Front End Developer</title>
+
+  <style>
+    .test * {
+      color: white;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+
+  <div class="c-header">
+    <div class="container ">
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <h3 class="navbar-brand c-logo" href="#">LUQMAN</h3>
+
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars-staggered navbar-toggler-icon text-white"
+              style="color: white; font-size: 1.75 rem;"></i>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end c-mobile-nav" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#">Contact</a>
+              <button class="nav-link main-btn" href="#">Hire me</button>
+            </div>
+          </div>
+        </div>
       </nav>
+    </div>
 
-      <div class="content">
-        <span class="title">Front-end Web Developer</span>
-        <h1>Hello, I’m <span>Luqman</span></h1>
-        <p>
-          
-          Hi there, I am Luqman Matloob, I am a Front-end developer, 
-          I specialize in making 3D websites my portfolio include hundreds 
-          of 3D website,  
-        </p>
-        <a href="#" class="btn">Portfolio</a>
+  </div>
+
+
+    <div class="container text-center text-lg-start m-lg-5">
+      <div class="row justify-content-between">
+
+        <div class="col-sm-12 col-lg-4 order-lg-2 c-hero-right">
+
+          <img class="img-fluid c-img" src="images/luqman.png" alt="" >
+
+        </div>
+
+        <div class="col-sm-12 col-lg-7 order-lg-1  c-hero-left">
+          <h3>FRONT-END WEB DEVELOPER</h3>
+          <h1>Hello, I’m <span class="h1-name">LUQMAN</span></h1>
+          <p>
+            Hi there, I am Luqman Matloob, I am a Front-end developer,
+            specializing in creating engaging and responsive web experiences.
+          </p>
+          <div class="justify-content-center">
+            <a href="#portfolio"><button class="btn">Portfolio</button></a>
+            <a href="#contact"><button class="btn">Contact</button></a>
+          </div>
+        </div>
       </div>
     </div>
-  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="footer">
+  </footer>
+
+
+
+
+  <!-- JS Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+  <!-- own js -->
+  <script src="js/main.js"></script>
+</body>
+
 </html>

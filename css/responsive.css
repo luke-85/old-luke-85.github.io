@@ -1,0 +1,77 @@
+/* Extra Small Devices (Phones) */
+@media (max-width: 575.98px) {
+
+  /* Your styles for extra small devices here */
+  .hero .c-img {
+    width: 200px;
+  }
+
+  .c-hero-left {
+    padding-top: 60px;
+  }
+
+  .c-hero-left h3 {
+    font-size: 1rem;
+
+  }
+
+  .c-hero-left h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+
+  }
+  
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 576px) {
+  /* Your styles for small devices here */
+
+  .hero .c-img {
+    width: 300px;
+  }
+
+  .c-hero-left {
+    padding-top: 60px;
+  }
+
+
+}
+
+/* Medium Devices (Laptops) */
+@media (min-width: 768px) {
+
+  /* Your styles for medium devices here */
+  .hero .c-img {
+    width: 400px;
+  }
+
+  .c-hero-left {
+    padding-top: 60px;
+  }
+
+
+
+}
+
+/* Large Devices (Desktops) */
+@media (min-width: 992px) {
+
+  /* Your styles for large devices here */
+  .c-hero-left {
+    padding-top: 40px;
+  }
+
+ 
+
+}
+
+/* Extra Large Devices (Large Desktops) */
+@media (min-width: 1200px) {
+
+  /* Your styles for extra large devices here */
+  .c-hero-left {
+    padding-top: 40px;
+  }
+
+}
